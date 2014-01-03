@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crossy", "crossy.csproj", "{0BAE2169-D8F6-448C-A4A6-88711F3D0F8A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CrossY_Installer", "CrossY_Installer\CrossY_Installer.vdproj", "{BF4788B7-4A30-4BCA-9746-AB23AAFD2B51}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0BAE2169-D8F6-448C-A4A6-88711F3D0F8A}.Debug.ActiveCfg = Debug|.NET
+		{0BAE2169-D8F6-448C-A4A6-88711F3D0F8A}.Debug.Build.0 = Debug|.NET
+		{0BAE2169-D8F6-448C-A4A6-88711F3D0F8A}.Release.ActiveCfg = Release|.NET
+		{0BAE2169-D8F6-448C-A4A6-88711F3D0F8A}.Release.Build.0 = Release|.NET
+		{BF4788B7-4A30-4BCA-9746-AB23AAFD2B51}.Debug.ActiveCfg = Debug
+		{BF4788B7-4A30-4BCA-9746-AB23AAFD2B51}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
